@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-brand-light text-brand-dark antialiased;
+}
+
+a {
+  @apply text-brand-primary font-medium;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-brand-light;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-brand-primary rounded-full;
+}
